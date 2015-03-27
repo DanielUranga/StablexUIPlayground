@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Slider w="400" h="400" skin:Paint-border="1" >
+<Slider w="400" h="200" skin:Paint-border="1" >
 
-	<VBox childPadding="10" skin:Paint-border="2" skin:Paint-color="0xFFFFFF" name="'main_area'" />
+	<VBox skin:Paint-border="2" skin:Paint-color="0xFF22FF" name="'main_area'" />
 
 </Slider>

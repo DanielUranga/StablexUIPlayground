@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Gplayui" package="com.sample.gplayui" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="Gplayui" />
+	
+	<source path="Source" />
+	
+	<haxelib name="lime" />
+	<haxelib name="openfl" />
+	<haxelib name="stablexui" />
+	
+	<assets path="Assets" rename="assets" exclude="openfl.svg" />
+	
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<HBox childPadding="10" align="'center'" skin:Paint-color="0x009900" h="110" >
+	<UrlBmp url="'http://www.canaltrans.com/estilos/v15/images/ecdqemsd/pirata.jpg'" />
+	<VBox skin:Paint-border="2" skin:Paint-color="0x990000" >
+		<Text text="'sample titldfgdgdfgdfgsdfsdfskdjfhslkfjhsldkfjhslkfje'" skin:Paint-border="2" />
+		<HBox skin:Paint-border="2" >
+			<Text text="'Time lapse'" />
+			<Text text="'social/all'" />
+		</HBox>
+	</VBox>
+</HBox>

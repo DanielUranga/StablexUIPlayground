@@ -1,5 +1,6 @@
 package ;
 
+import flash.geom.Matrix;
 import ru.stablex.ui.widgets.*;
 import flash.events.*;
 import flash.net.*;
@@ -12,7 +13,6 @@ class UrlBmp extends Bmp {
 
 	public function new() {
 		super();
-		this.autoSize = true;
 	}
 
 	function set_url(url : String) : String {

@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Slider w="400" h="200" skin:Paint-border="1" >
+<Scroll skin:Paint-border="1" hScroll="false" vScroll="true" defaults="'Screen'" name="'slider'" >
 
-	<VBox skin:Paint-border="2" skin:Paint-color="0xFF22FF" name="'main_area'" />
+	<VBox padding="5" childPadding="5" skin:Paint-border="2" widthPt="100" name="'main_area'">
+		
+		<meta:include src="ui/leaderboardtitle.xml" name="'leaderboard_title'" />
 
-</Slider>
+		<VBox padding="5" childPadding="5" widthPt="100" name="'leaderboard_player_entries'" >
+			<meta:include src="ui/leaderboardentry.xml" />
+			<meta:include src="ui/leaderboardentry.xml" />
+			<meta:include src="ui/leaderboardentry.xml" />
+			<meta:include src="ui/leaderboardentry.xml" />
+			<meta:include src="ui/leaderboardentry.xml" />
+			<meta:include src="ui/leaderboardentry.xml" />
+			<meta:include src="ui/leaderboardentry.xml" />
+			<meta:include src="ui/leaderboardentry.xml" />
+		</VBox>
+
+	</VBox>
+
+</Scroll>
